@@ -19,3 +19,10 @@ But be careful, a legal move is defined as any move that would normally be legal
 Staying in place is a legal move for all pieces
 When a Pawn reaches the top row, it becomes a Queen
 For the case where the piece is a Pawn, starting on one of the bottom two rows (i.e. any of the digits 7, 8, 9 and 0), the Pawn may move either one or two spaces forward, but only the first time it moves.
+
+Installation
+
+1) git clone git://github.com/lperichon/Phonepad-Chess.git
+2) cd Phonepad-Chess
+3) bundle install
+4) ruby main.rb
